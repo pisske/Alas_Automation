@@ -1,0 +1,14 @@
+{
+  "newUser": {
+    "name": "Marko Maric",
+    "email": "marko@example.com",
+    "gender": "male",
+    "status": "active"
+  },
+  "updatedUser": {
+    "name": "Petar Peric",
+    "email": "petard@example.com",
+    "gender": "male",
+    "status": "inactive"
+  }
+}
