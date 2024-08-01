@@ -19,8 +19,7 @@ class CheckoutPage {
     // Check if the popup is present and close it if it is
     cy.get("body").then(($body) => {
       if ($body.find(".popup-class").length > 0) {
-        // Replace '.popup-class' with the actual class or selector of the popup
-        cy.get(".popup-class").click(); // Replace with the actual method to close the popup
+        cy.get(".popup-class").click();
       }
     });
   }
